@@ -1,8 +1,25 @@
+import { Header } from "./components/Header"
+import { Conteudo } from "./components/conteudo"
+
 function App() {
   
 
   return (
-    <h1>TESTE</h1>
+    <>
+    <Header/>
+    <main>
+    <Conteudo title="Essa aula é para teste" conteudo="TESTANDO TESTANDO"/>
+    <Conteudo title="Mais um pouco" conteudo="BALLBALBLA"/>
+    </main>
+
+    
+
+
+
+
+
+    </>
+    
   )
     
   
